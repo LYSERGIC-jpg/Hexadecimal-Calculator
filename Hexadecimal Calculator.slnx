@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Hexadecimal Calculator.vcxproj" Id="46029eb4-3deb-4e06-a48f-07b66a6a972a" />
+</Solution>
