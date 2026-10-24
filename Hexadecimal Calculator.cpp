@@ -8,7 +8,7 @@ int main()
     int choice = 0;
     std::cout << "############ Hexadecimal Calculator ############\n";
     std::cout << "Select Mode\n";
-    std::cout << " 1: Standerd hex (e.g, F4 + 2C)\n";
+    std::cout << " 1: Standard hex (e.g, F4 + 2C)\n";
     std::cout << " 2: Address & offset (e.g, 0xF0128B5 - 0xFC)\n\n";
     std::cout << "Enter choice ( 1 or 2 ): > ";
     
@@ -21,7 +21,7 @@ int main()
     if (choice == 1)
     {
 
-        std::cout << "\n=== Standerd hex ===\n";
+        std::cout << "\n=== Standard hex ===\n";
         std::cout << "Enter experession (e.g, 0x7A + 0xC4): > ";
 
         if (!(std::cin >> input1 >> op >> input2)) return 0;
@@ -42,7 +42,7 @@ int main()
             break;
         default:
             std::cout << "Invalid operator\n";
-            system("pause>0");
+            system("pause > nul");
             return 1;
         }
         std::cout << "Result: 0x" << std::hex << std::uppercase << result << "\n";
@@ -67,7 +67,7 @@ int main()
             break;
         default:
             std::cout << "Invalid operator\n";
-            system("pause>0");
+            system("pause > nul");
             return 1;
         }
         std::cout << "Result Address: 0x"
@@ -81,7 +81,7 @@ int main()
     }
 
     std::cout << "\n###############################################\n";
-    system("pause>0");
+    system("pause > nul");
     return 0;
 }
 
